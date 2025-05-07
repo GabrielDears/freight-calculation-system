@@ -1,10 +1,6 @@
 package com.fiap.exercicio.logger;
 
-import java.util.logging.Logger;
-
 public class LocacaoLogger {
-
-    private static final Logger logger = Logger.getLogger(LocacaoLogger.class.getName());
 
     private static LocacaoLogger locacaoLogger;
 
