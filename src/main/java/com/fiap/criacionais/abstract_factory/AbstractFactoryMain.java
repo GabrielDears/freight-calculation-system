@@ -21,8 +21,8 @@ public class AbstractFactoryMain {
     private static void executeActions(Button button, Textbox textbox, Checkbox checkbox) {
         button.click();
         button.draw();
-        String texto = textbox.getTexto();
-        System.out.println(texto);
+        String text = textbox.getTexto();
+        System.out.println(text);
         checkbox.check();
         String name = checkbox.getName();
         System.out.println(name);
